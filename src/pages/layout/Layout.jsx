@@ -1,4 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom";
+import { BottomNavigation } from "@components";
 
 const Layout = () => {
 	const pageNumbers = [
@@ -27,12 +28,7 @@ const Layout = () => {
 				</div>
 			</main>
 			<footer className='fixed bottom-0 bg-white w-full py-6 px-5'>
-				<div className='flex justify-between text-xl font-medium'>
-					<button className='border border-light-gray py-2.5 px-5 text-cool-gray rounded-md'>
-						Go Back
-					</button>
-					<button className='bg-marine-blue py-2.5 px-5 text-white rounded-md'>Next Step</button>
-				</div>
+				<BottomNavigation />
 			</footer>
 		</div>
 	);
