@@ -1,5 +1,4 @@
-import MobileLayout from "./mobile-layout/MobileLayout";
-import DesktopLayout from "./desktop-layout";
+import Layout from "./layout/Layout";
 import PersonalInfo from "./personal-info";
 import SelectPlan from "./select-plan";
 import PickAddOns from "./pick-add-ons";
@@ -7,13 +6,4 @@ import FinishingUp from "./finishing-up";
 import ThankYou from "./thank-you";
 import NotFound from "./not-found";
 
-export {
-	MobileLayout,
-	DesktopLayout,
-	PersonalInfo,
-	SelectPlan,
-	PickAddOns,
-	FinishingUp,
-	ThankYou,
-	NotFound,
-};
+export { Layout, PersonalInfo, SelectPlan, PickAddOns, FinishingUp, ThankYou, NotFound };

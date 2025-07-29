@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
 @theme {
+	--font-ubuntu: "Ubuntu", "sans-serif";
+
 	--color-marine-blue: hsl(213, 96%, 18%);
 	--color-purplish-blue: hsl(243, 100%, 62%);
 	--color-pastel-blue: hsl(228, 100%, 84%);

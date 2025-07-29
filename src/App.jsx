@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import {
-	DesktopLayout,
-	MobileLayout,
+	Layout,
 	PersonalInfo,
 	SelectPlan,
 	PickAddOns,
@@ -17,7 +16,7 @@ function App() {
 				path='/'
 				element={
 					<>
-						<MobileLayout /> <DesktopLayout />
+						<Layout />
 					</>
 				}>
 				<Route index element={<PersonalInfo />} />
