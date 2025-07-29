@@ -7,6 +7,7 @@ import {
 	PickAddOns,
 	FinishingUp,
 	ThankYou,
+	NotFound,
 } from "./pages";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
 				<Route path='pick-add-ons' element={<PickAddOns />} />
 				<Route path='finishing-up' element={<FinishingUp />} />
 				<Route path='thank-you' element={<ThankYou />} />
+				<Route path='*' element={<NotFound />} />
 			</Route>
 		</Routes>
 	);
