@@ -14,3 +14,23 @@
 	--color-alabaster: hsl(231, 100%, 99%);
 	--color-white: hsl(0, 0%, 100%);
 }
+
+*,
+::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.text-title-1 {
+	@apply text-4xl font-bold text-marine-blue mb-4;
+}
+
+.text-content-standard {
+	@apply text-[1.7rem] font-normal text-cool-gray;
+}
