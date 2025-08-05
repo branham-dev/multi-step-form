@@ -28,7 +28,7 @@ const Layout = () => {
 				</div>
 			</header>
 			<main className='bg-magnolia h-screen flex justify-center items-start '>
-				<div className='w-[90%] min-h-1/3 bg-white -mt-30 rounded-2xl pt-8 px-6'>
+				<div className='w-[90%] min-h-1/3 bg-white -mt-30 rounded-2xl py-16 px-10'>
 					<Outlet />
 				</div>
 			</main>

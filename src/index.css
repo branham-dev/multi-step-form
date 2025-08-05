@@ -32,5 +32,13 @@ body {
 }
 
 .text-content-standard {
-	@apply text-[1.7rem] font-normal text-cool-gray;
+	@apply text-[1.7rem] font-normal text-cool-gray mb-6;
+}
+
+.form-label {
+    @apply block text-[1.25rem] text-marine-blue mb-1
+}
+
+.form-input {
+    @apply border border-cool-gray rounded px-2.5 py-2.5 w-full text-[1.6rem] font-medium text-marine-blue placeholder:text-cool-gray outline-none
 }
