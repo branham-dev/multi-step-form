@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
 
 @theme {
 	--font-ubuntu: "Ubuntu", "sans-serif";
@@ -41,4 +44,8 @@ body {
 
 .form-input {
     @apply border border-cool-gray rounded px-2.5 py-2.5 w-full text-[1.6rem] font-medium text-marine-blue placeholder:text-cool-gray outline-none
+}
+
+.duration-text {
+    @apply text-xl font-medium text-marine-blue
 }
