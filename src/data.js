@@ -12,7 +12,7 @@ export const subPlan = () => {
 			plan: {
 				monthly: {
 					billing: "$9/mo",
-					promo: null,
+					promo: "-",
 				},
 				yearly: {
 					billing: "$90/yr",
@@ -26,7 +26,7 @@ export const subPlan = () => {
 			plan: {
 				monthly: {
 					billing: "$12/mo",
-					promo: null,
+					promo: "-",
 				},
 				yearly: {
 					billing: "$120/yr",
@@ -40,7 +40,7 @@ export const subPlan = () => {
 			plan: {
 				monthly: {
 					billing: "$15/mo",
-					promo: null,
+					promo: "-",
 				},
 				yearly: {
 					billing: "$150/yr",
