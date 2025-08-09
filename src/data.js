@@ -52,3 +52,37 @@ export const subPlan = () => {
 
 	return planData;
 };
+
+export const pickAddOns = () => {
+	const addOnsData = [
+		{
+			name: "Online service",
+			text: "Access to multiplayer games",
+			plan: {
+				monthly: "+$1/mo",
+				yearly: "+$10/yr",
+			},
+			selected: false,
+		},
+		{
+			name: "Larger storage",
+			text: "Extra 1TB of cloud save",
+			plan: {
+				monthly: "+$2/mo",
+				yearly: "+$20/yr",
+			},
+			selected: false,
+		},
+		{
+			name: "Customizable Profile",
+			text: "Custom theme on your profile",
+			plan: {
+				monthly: "+$2/mo",
+				yearly: "+$20/yr",
+			},
+			selected: false,
+		},
+	];
+
+	return addOnsData;
+};
